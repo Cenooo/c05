@@ -18,7 +18,6 @@ int	ft_is_prime(int nb)
 	while (nb % i != 0)
 	{
 		if (i > nb)
-			break ;
 		i++;
 	}
 	if (nb == i)
